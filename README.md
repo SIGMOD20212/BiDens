@@ -8,4 +8,7 @@ similarity_synthetic.py is develop for estimating the similarity between two syn
 
 runtime_synthetic.py is developed for measuring the runtime during which we implement each densification method to build a densified sketch. It contains three parameters: k, sketch size; gamma, the ratio of empty bins in the sketch; rounds, the number of repeated experiments.
 
+similarity_realdata.py is developed for estimating the similarity in real-world datasets. It contains four parameters: k, sketch size; rounds, the number of repeated experiments.
+In this code, we contain a directory of real-world datasets. It can be downloaded from: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html#kdd2010%20(algebra).
+
 The folder "parameters" contains the parameters used by our method BiDens, and we list four files that consist of the parameters when we set the sketch size as k=100.
