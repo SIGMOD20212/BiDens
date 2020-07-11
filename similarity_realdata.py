@@ -62,7 +62,7 @@ def FastDens(sk, C):
     return dsk
 
 
-def OPTDens_FastDens(sk, C):
+def OPT_FastDens(sk, C):
     Eu_lst = []
     Nu_lst = []
     for i in range(k):
@@ -245,8 +245,8 @@ if __name__ == '__main__':
                 sketch1_densified2 = FastDens(sketch1, 0)
                 sketch2_densified2 = FastDens(sketch2, 0)
 
-                sketch1_densified3 = OPTDens_FastDens(sketch1, 0)
-                sketch2_densified3 = OPTDens_FastDens(sketch2, 0)
+                sketch1_densified3 = OPT_FastDens(sketch1, 0)
+                sketch2_densified3 = OPT_FastDens(sketch2, 0)
 
                 sketch1_densified4 = BiDens(sketch1, 0)
                 sketch2_densified4 = BiDens(sketch2, 0)
