@@ -10,8 +10,7 @@ import operator
 
 k = int(sys.argv[1])
 c = int(sys.argv[2])
-top = int(sys.argv[3])
-rounds = int(sys.argv[4])
+rounds = int(sys.argv[3])
 
 _mersenne_prime = (1 << 29) - 1
 
